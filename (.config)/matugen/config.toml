@@ -1,13 +1,16 @@
 [config]
 
 [config.wallpaper]
-command = "swww"
-arguments = ["img", "--transition-type", "center", "--transition-step", "15", "--transition-fps", "60"]
-set = true
+command = "swww img {{ image }} --transition-type fade"
 
 [templates.hyprland]
 input_path = '~/.config/matugen/templates/hyprland-colors.conf'
 output_path = '~/.config/hypr/colors.conf'
+post_hook = 'hyprctl reload'
+
+[templates.hyprland_lua]
+input_path = '~/.config/matugen/templates/hyprland-colors.lua'
+output_path = '~/.config/hypr/colors.lua'
 post_hook = 'hyprctl reload'
 
 # ---
@@ -25,10 +28,6 @@ input_path = '~/.config/matugen/templates/kitty-colors-modified.conf'
 output_path = '~/.config/kitty/colors.conf'
 post_hook = 'pkill -SIGUSR1 kitty'
 
-[templates.rofi]
-input_path = '~/.config/matugen/templates/rofi-colors.rasi'
-output_path = '~/.config/colors.rasi'
-
 [templates.qt6ct]
 input_path = '~/.config/matugen/templates/qtct-colors.conf'
 output_path = '~/.config/qt6ct/colors/matugen.conf'
@@ -43,7 +42,7 @@ output_path = '~/.config/btop/themes/matugen.theme'
 
 [templates.obsidian]
 input_path = '~/.config/matugen/templates/obsidian-minimal-matugen-colors.css'
-output_path = '~/Artorias/.obsidian/snippets/colors.css'
+output_path = '~/Astorias/.obsidian/snippets/colors.css'
 
 [templates.vscode]
 input_path = '~/.config/matugen/templates/vscode-settings.json'
