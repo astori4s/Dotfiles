@@ -32,6 +32,7 @@ hl.bind(mainMod .." + comma", hl.dsp.exec_cmd("dms ipc call settings toggle"))
 hl.bind(mainMod .." + SHIFT + A", hl.dsp.exec_cmd("quickshell -p ~/.config/quickshell/hyprquickshot/shell.qml -n"))
 hl.bind(mainMod .." + D", hl.dsp.exec_cmd("dms restart"))
 hl.bind(mainMod .." + Z", hl.dsp.exec_cmd("obsidian"))
+hl.bind(mainMod .." + SHIFT + Z", hl.dsp.exec_cmd("fooyin"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))

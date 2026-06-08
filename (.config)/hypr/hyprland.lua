@@ -276,12 +276,14 @@ hl.window_rule({
    -- hl.window_rule({ match = { class = "discord" }, workspace = "2 silent", })
    -- hl.window_rule({ match = { class = "Spotify" }, workspace = "3 silent", })
    -- hl.window_rule({ match = { class = "Cider" }, workspace = "3 silent", })
+   -- hl.window_rule({ match = { class = "org.fooyin.fooyin"}, workspace = "4 silent", })
    
 -- Multiple Monitor Window Rules
    hl.window_rule({ match = { class = "vesktop" }, workspace = "2 silent", })
    hl.window_rule({ match = { class = "discord" }, workspace = "2 silent", })
    hl.window_rule({ match = { class = "Spotify" }, workspace = "4 silent", })
    hl.window_rule({ match = { class = "Cider" }, workspace = "4 silent", })
+   hl.window_rule({ match = { class = "org.fooyin.fooyin" }, workspace = "4 silent", })
 
 -----------------------
 --- WORKSPACE RULES ---
