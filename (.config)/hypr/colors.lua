@@ -4,30 +4,30 @@
 -- =================================================
 
 -- Primary palette
-primary          = "rgba(DFB7FFFF)"
-on_primary       = "rgba(4B007DFF)"
-primary_container     = "rgba(641C9CFF)"
-on_primary_container  = "rgba(EED4FFFF)"
+primary          = "rgba(ABCDD0FF)"
+on_primary       = "rgba(143538FF)"
+primary_container     = "rgba(5C7C7FFF)"
+on_primary_container  = "rgba(000000FF)"
 
 -- Secondary palette
-secondary        = "rgba(DBBAF2FF)"
-on_secondary     = "rgba(3E2553FF)"
-secondary_container   = "rgba(563C6BFF)"
-on_secondary_container = "rgba(F0D7FFFF)"
+secondary        = "rgba(BCC9CAFF)"
+on_secondary     = "rgba(273234FF)"
+secondary_container   = "rgba(3F4B4CFF)"
+on_secondary_container = "rgba(D9E6E7FF)"
 
 -- Tertiary palette
-tertiary         = "rgba(FFAFD7FF)"
-on_tertiary      = "rgba(610044FF)"
-tertiary_container    = "rgba(830F5EFF)"
-on_tertiary_container = "rgba(FFD1E6FF)"
+tertiary         = "rgba(D0C1DFFF)"
+on_tertiary      = "rgba(362C43FF)"
+tertiary_container    = "rgba(7E718CFF)"
+on_tertiary_container = "rgba(FFFFFFFF)"
 
 -- Surface / background
-background       = "rgba(161219FF)"
-on_background    = "rgba(E9DFEAFF)"
-surface          = "rgba(161219FF)"
-on_surface       = "rgba(E9DFEAFF)"
-surface_variant  = "rgba(4C4452FF)"
-on_surface_variant = "rgba(CFC2D4FF)"
+background       = "rgba(121414FF)"
+on_background    = "rgba(E3E2E2FF)"
+surface          = "rgba(121414FF)"
+on_surface       = "rgba(E3E2E2FF)"
+surface_variant  = "rgba(414849FF)"
+on_surface_variant = "rgba(C1C8C8FF)"
 
 -- Error
 error            = "rgba(FFB4ABFF)"
@@ -36,11 +36,11 @@ error_container  = "rgba(93000AFF)"
 on_error_container = "rgba(FFDAD6FF)"
 
 -- Outline / shadow
-outline          = "rgba(988D9DFF)"
-outline_variant  = "rgba(4C4452FF)"
+outline          = "rgba(8B9292FF)"
+outline_variant  = "rgba(414849FF)"
 shadow           = "rgba(000000FF)"
 
 -- Hyprland border helpers (with custom alpha)
-active_border    = "rgba(DFB7FFFF)"
-inactive_border  = "rgba(4C445299)"
+active_border    = "rgba(ABCDD0FF)"
+inactive_border  = "rgba(41484999)"
 shadow_color     = "rgba(000000CC)"
