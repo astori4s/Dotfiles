@@ -17,21 +17,22 @@ local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Binds/ for more
 hl.bind(mainMod .." + T", hl.dsp.exec_cmd(terminal))
-local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
+hl.bind(mainMod .." + B", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .." + E", hl.dsp.exec_cmd(fileManager))
+local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 hl.bind(mainMod .." + V", hl.dsp.window.float({ action = "toggle"}))
 hl.bind(mainMod .." + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .." + J", hl.dsp.layout("togglesplit")) -- dwindle only
-hl.bind(mainMod .." + B", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .." + F", hl.dsp.window.fullscreen ({action = "toggle"}))
 hl.bind(mainMod .." + L", hl.dsp.exec_cmd("dms ipc call lock lock"))
-hl.bind(mainMod .." + X", hl.dsp.exec_cmd("dms ipc call notepad toggle"))
 hl.bind(mainMod .." + A", hl.dsp.exec_cmd("dms ipc call spotlight toggle"))
 hl.bind(mainMod .." + comma", hl.dsp.exec_cmd("dms ipc call settings toggle"))
 hl.bind(mainMod .." + SHIFT + A", hl.dsp.exec_cmd("quickshell -p ~/.config/quickshell/hyprquickshot/shell.qml -n"))
 hl.bind(mainMod .." + D", hl.dsp.exec_cmd("dms restart"))
 hl.bind(mainMod .." + Z", hl.dsp.exec_cmd("obsidian"))
-hl.bind(mainMod .." + SHIFT + Z", hl.dsp.exec_cmd("fooyin"))
+hl.bind(mainMod .." + X", hl.dsp.exec_cmd("spotify"))
+hl.bind(mainMod .." + C", hl.dsp.exec_cmd("Zed"))
+hl.bind(mainMod .." + SHIFT + C", hl.dsp.exec_cmd("Github Desktop"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
